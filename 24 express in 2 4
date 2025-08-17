@@ -1,0 +1,27 @@
+/*Write a program which reads a two-digit number and prints every digit, separated by a space.
+
+Input
+One integer from 
+10
+10 to 
+99
+99 inclusively.
+
+Output
+Print two digits separated by a space.
+
+Examples
+Inputcopy	Outputcopy
+24
+2 4
+*/
+//code:
+#include <stdio.h>
+int main(){
+int a,n,m;
+scanf("%d",&a);
+n=a/10;
+m=a%10;
+printf("%d %d",n,m);
+return 0;
+}
